@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  /* Estilo da tabela */
+table {
+    width: 100%; /* Definindo a largura da tabela como 100% */
+    border-collapse: collapse; /* Juntando as bordas das células */
+}
+
+/* Estilo das células do cabeçalho */
+th {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+    border: 1px solid #dddddd; /* Borda das células do cabeçalho */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+/* Estilo das células do corpo da tabela */
+td {
+    border: 1px solid #dddddd; /* Borda das células do corpo da tabela */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+/* Estilo para células alternadas (para facilitar a leitura) */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
